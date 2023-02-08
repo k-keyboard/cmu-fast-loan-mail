@@ -4,17 +4,13 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Bill</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <style>
-      * {
+      @import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,400;0,700;1,400&display=swap");
+      table {
         font-family: "Sarabun", sans-serif;
         font-weight: 400;
-        font-size: 0.665rem;
+        font-size: 0.425rem;
         line-height: 12px;
-      }
-      table {
         display: block;
         max-width: 530px;
         width: 100%;
@@ -23,20 +19,27 @@
         padding: 10px;
         height: 100%;
         border: 1px solid black;
+        background: #FFFFFF;
         border-collapse: collapse;
       }
       b {
+        font-family: "Sarabun", sans-serif;
+        line-height: 12px;
         font-weight: 700;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
       }
-      .header-h-50 {
-        height: 60px !important;
+      .header-h-25 {
+        height: 25px !important;
       }
       .header-h-40 {
         height: 40px !important;
         padding: 10px 0 5px 0;
       }
       p {
+        font-family: "Sarabun", sans-serif;
+        font-weight: 400;
+        font-size: 0.425rem;
+        line-height: 12px;
         margin: 0;
         padding: 0;
       }
@@ -71,20 +74,23 @@
         width: 20% !important;
       }
       .logo-text-eng {
+        font-family: "Sarabun", sans-serif;
         line-height: 15px;
         letter-spacing: 0.08rem;
-        font-size: 1rem !important;
+        font-size: .7rem !important;
         font-weight: 700;
         color: #7466aa;
       }
       .logo-text-eng > span {
-        font-size: 1rem;
+        font-family: "Sarabun", sans-serif;
+        font-size: .7rem;
         font-weight: 700;
         color: #e7b460;
       }
       .logo-text-th {
+        font-family: "Sarabun", sans-serif;
         line-height: 15px;
-        font-size: 1rem !important;
+        font-size: .7rem !important;
         font-weight: 700;
         color: #7466aa;
       }
@@ -93,52 +99,57 @@
   <body>
     <table>
       <thead>
-        <th
-          class="header-h-50 width-auto"
-          colspan="2"
-          align="left"
-          valign="top"
-        >
-          <p class="logo-text-eng">Student <span>Fast</span> Loan <br /></p>
-          <p class="logo-text-th">"ร้อนเงินไม่ต้องร้อนใจ"</p>
-        </th>
-        <th
-          class="header-h-50 width-auto"
-          colspan="1"
-          align="center"
-          valign="bottom"
-        >
-          <p>
-            <b>ใบสรุปรายละเอียดการยืมเงินฉุกเฉิน</b>
-          </p>
-          <p>
-            <b>Student Fast Loan</b>
-          </p>
-        </th>
-        <th
-          class="header-h-50 width-auto"
-          colspan="2"
-          align="right"
-          valign="top"
-        >
-          <img src="images/image 1.svg" height="25" alt="" />
-        </th>
+        <tr>
+          <th
+            class="header-h-25 width-auto"
+            colspan="2"
+            align="left"
+            valign="top"
+          >
+            <p class="logo-text-eng">Student <span>Fast</span> Loan <br /></p>
+            <p class="logo-text-th">"ร้อนเงินไม่ต้องร้อนใจ"</p>
+          </th>
+          <th 
+            class="header-h-25 width-auto"
+            colspan="1"
+            align="right"
+            valign="top">
+          </th>
+          <th
+            class="header-h-25 width-auto"
+            colspan="2"
+            align="right"
+            valign="top"
+          >
+            <img src="images/image 1.png" style="height:100%;" alt="" />
+          </th>
+        </tr>
+        <tr>
+          <th
+            class="header-h-25 width-auto"
+            colspan="5"
+            align="center"
+            valign="bottom"
+          >
+            <p>
+              <b>ใบสรุปรายละเอียดการยืมเงินฉุกเฉิน</b>
+            </p>
+            <p>
+              <b>Student Fast Loan</b>
+            </p>
+          </th>
+        </tr>
       </thead>
       <tbody>
         <tr>
-          <th class="pt-5 header-h-40" colspan="2" align="left" valign="top">
+          <th class="pt-5 header-h-40" colspan="3" align="left" valign="top">
             <p>
               กองพัฒนนักศึกษา สำนักงานมหาวิทยาลัยเชียงใหม่ <br />
               99 ถนนห้วยแก้ว ต.สุเทพ อ.เมือง จ.เชียงใหม่ <br />
               โทรศัพท์ 053-943032
             </p>
           </th>
-          <th
-            class="pt-5 header-h-40"
-            colspan="1"
-            align="left"
-            valign="top"
-          ></th>
+          
           <th class="pt-5 header-h-40" colspan="2" align="left" valign="top">
             <p>
               เลขที่ทำรายการ : xx-xxx <br />
